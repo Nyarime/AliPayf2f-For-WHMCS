@@ -35,8 +35,9 @@
 
 
 /*
- * Version: 1.1.4
- * Build: 2010100721
+ * Editor by Nyarime
+ * Version: 1.2
+ * Build: 2019018118
  */
 
 
