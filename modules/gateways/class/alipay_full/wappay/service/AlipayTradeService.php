@@ -1,9 +1,9 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: xudong.ding
- * Date: 16/5/19
- * Time: 下午2:09
+ * User: Nyarime
+ * Date: 04/30/2020
+ * Time: 上午1:54
  */
 
 require_once dirname ( __FILE__ ).DIRECTORY_SEPARATOR.'./../../AopSdk.php';
@@ -225,15 +225,14 @@ class AlipayTradeService {
 	}
 	
 
-	/** *利用google api生成二维码图片
-	 * $content：二维码内容参数
-	 * $size：生成二维码的尺寸，宽度和高度的值
-	 * $lev：可选参数，纠错等级
-	 * $margin：生成的二维码离边框的距离
+	/** *此处Google QR已弃用
+	 * $c：二维码内容参数
+	 * 距离调整详见 /qrcode/index.php
+	 * Powered by Nyarime
 	 */
 	function create_erweima($content, $size = '200', $lev = 'L', $margin= '0') {
 		$content = urlencode($content);
-		$image = '<img src="http://chart.apis.google.com/chart?chs='.$size.'x'.$size.'&amp;cht=qr&chld='.$lev.'|'.$margin.'&amp;chl='.$content.'"  widht="'.$size.'" height="'.$size.'" />';
+		$image = '<img src="/qrcode/index.php?c='.$content.'"  widht="'.$size.'" height="'.$size.'" />';
 		return $image;
 	}
 }
