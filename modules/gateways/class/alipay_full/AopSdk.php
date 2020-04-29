@@ -1,8 +1,8 @@
 <?php
 /**
  * AOP SDK 入口文件
- * 请不要修改这个文件，除非你知道怎样修改以及怎样恢复
- * @author wuxiao
+ * 从源文件开始修正，兼容Whmcs新版
+ * @author Nyarime
  */
 
 /**
