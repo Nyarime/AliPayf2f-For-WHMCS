@@ -95,7 +95,7 @@ class alipayfull_config{
             'FriendlyName' => '',
             'Type' => 'dropdown',
             'Options' => [
-                '1' => "</option></select><div class='alert alert-success' role='alert' id='alipay_full_author' style='margin-bottom: 0px;'>Powered by <a href='https://www.itxe.net/' target='_blank'><span class='glyphicon glyphicon-new-window'></span> ITXE</a> Studio.<br/><span class='glyphicon glyphicon-ok'></span> 支持 WHMCS 5/6/7 , 当前WHMCS 版本 ".$CONFIG["Version"]."<br/><span class='glyphicon glyphicon-ok'></span> 仅支持 PHP 5.4 以上的环境 , 当前PHP版本 ".phpversion()."</div><script>$('#alipay_full_author').prev().hide();</script><style>* {font-family: Microsoft YaHei Light , Microsoft YaHei}</style><select style='display:none'>",
+                '1' => "</option></select><div class='alert alert-success' role='alert' id='alipay_full_author' style='margin-bottom: 0px;'>Powered by <a href='https://www.idc.moe/' target='_blank'><span class='glyphicon glyphicon-new-window'></span>ITXE Studio</a>.<br/><span class='glyphicon glyphicon-ok'></span> 支持 WHMCS 5.x-7.x , 当前WHMCS 版本 ".$CONFIG["Version"]."<br/><span class='glyphicon glyphicon-ok'></span> 仅支持 PHP 5.4 以上的环境 , 当前PHP版本 ".phpversion()."</div><script>$('#alipay_full_author').prev().hide();</script><style>* {font-family: Microsoft YaHei Light , Microsoft YaHei}</style><select style='display:none'>",
             ],
         ];
         return $config;
