@@ -22,7 +22,7 @@
 require 'QRcode.php';
 
 // 接收参数
-$content = $_GET['c'] ? $_GET['c'] : '';
+$c = $_GET['c'] ? $_GET['c'] : '';
 
 // 图片输出
-Toplib_Lib_QRcode::png($content,false,QR_ECLEVEL_L,6,1,false,array(255, 255, 255, 0),array(0, 0, 0, 0));
+Toplib_Lib_QRcode::png($c,false,QR_ECLEVEL_L,6,1,false,array(255, 255, 255, 0),array(0, 0, 0, 0));
