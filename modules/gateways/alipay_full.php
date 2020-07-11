@@ -10,7 +10,7 @@ use Illuminate\Database\Capsule\Manager as Capsule;
 function alipay_full_MetaData() {
     return array(
     'DisplayName' => 'AliPay',
-    'APIVersion' => '1.1', // Use API Version 1.1
+    'APIVersion' => '1.2', // Use API Version 1.2
     );
 }
 
