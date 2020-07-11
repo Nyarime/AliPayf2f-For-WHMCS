@@ -25,4 +25,4 @@ if ($callback_result){
             addInvoicePayment($invoice_id,$trade_no,$amount,$fee,$gatewaymodule);
     }
 }
-exit("入账失败 , 请联系管理员为您手工入账");
+exit("提示: 入账失败 , 请联系管理员为您手工入账!");
